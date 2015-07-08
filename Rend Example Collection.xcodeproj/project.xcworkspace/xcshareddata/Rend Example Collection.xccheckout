@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E47726F9-9C80-48C3-A999-84329CE199C7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Rend Example Collection</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BF23E6D2-54AD-4B7E-B94C-95D2AA62484F</key>
+		<string>https://github.com/antonholmquist/rend-ios.git</string>
+		<key>D86A5A45-39BD-4788-854B-3A51237085F4</key>
+		<string>https://github.com/facebook/react-native.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Examples/Rend Example Collection/Rend Example Collection.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BF23E6D2-54AD-4B7E-B94C-95D2AA62484F</key>
+		<string>../../../..</string>
+		<key>D86A5A45-39BD-4788-854B-3A51237085F4</key>
+		<string>../../../../../../projects/react-native</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/antonholmquist/rend-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BF23E6D2-54AD-4B7E-B94C-95D2AA62484F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D86A5A45-39BD-4788-854B-3A51237085F4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>react-native</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BF23E6D2-54AD-4B7E-B94C-95D2AA62484F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>rend-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A5FF1A01A7F14A60065922E /* libReactKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5FF19D1A7F13EB0065922E /* libReactKit.a */; };
+		1A5FF1A11A7F15990065922E /* libReactKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5FF19D1A7F13EB0065922E /* libReactKit.a */; };
+		1A5FF1A31A7F18270065922E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5FF1A21A7F18270065922E /* GLKit.framework */; };
+		1A8760A71A808EFF00B33BE2 /* capsule.obj in Resources */ = {isa = PBXBuildFile; fileRef = 1A8760A61A808EFF00B33BE2 /* capsule.obj */; };
+		1A8760C51A8091A400B33BE2 /* box.obj in Resources */ = {isa = PBXBuildFile; fileRef = 1A8760AA1A8091A400B33BE2 /* box.obj */; };
+		1A8760C61A8091A400B33BE2 /* chicken.obj in Resources */ = {isa = PBXBuildFile; fileRef = 1A8760AB1A8091A400B33BE2 /* chicken.obj */; };
+		1A8760CF1A8091A400B33BE2 /* cow-parts.obj in Resources */ = {isa = PBXBuildFile; fileRef = 1A8760B41A8091A400B33BE2 /* cow-parts.obj */; };
+		1A8760D01A8091A400B33BE2 /* cow.obj in Resources */ = {isa = PBXBuildFile; fileRef = 1A8760B51A8091A400B33BE2 /* cow.obj */; };
+		1A8760D31A8091A400B33BE2 /* jlongster.obj in Resources */ = {isa = PBXBuildFile; fileRef = 1A8760B81A8091A400B33BE2 /* jlongster.obj */; };
+		1A8760D51A8091A400B33BE2 /* mass.obj in Resources */ = {isa = PBXBuildFile; fileRef = 1A8760BA1A8091A400B33BE2 /* mass.obj */; };
+		1A8760DA1A8091A400B33BE2 /* pig.obj in Resources */ = {isa = PBXBuildFile; fileRef = 1A8760BF1A8091A400B33BE2 /* pig.obj */; };
+		1A8760FE1A81208A00B33BE2 /* box.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 1A8760E51A81208A00B33BE2 /* box.mtl */; };
+		1A8760FF1A81208A00B33BE2 /* chicken.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 1A8760E61A81208A00B33BE2 /* chicken.mtl */; };
+		1A8761071A81208A00B33BE2 /* cow-parts.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 1A8760EE1A81208A00B33BE2 /* cow-parts.mtl */; };
+		1A8761081A81208A00B33BE2 /* cow.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 1A8760EF1A81208A00B33BE2 /* cow.mtl */; };
+		1A87610A1A81208A00B33BE2 /* mass.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 1A8760F11A81208A00B33BE2 /* mass.mtl */; };
+		1A87610E1A81208A00B33BE2 /* pig.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 1A8760F51A81208A00B33BE2 /* pig.mtl */; };
+		1A8761151A8121F200B33BE2 /* cone.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 1A8761131A8121F200B33BE2 /* cone.mtl */; };
+		1A8761161A8121F200B33BE2 /* cone.obj in Resources */ = {isa = PBXBuildFile; fileRef = 1A8761141A8121F200B33BE2 /* cone.obj */; };
+		1AAF62DE1A7F3F0F00D39B43 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5FF1A41A7F18610065922E /* JavaScriptCore.framework */; };
+		3A1237A215A7067500E404EA /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A12379F15A7067500E404EA /* UIViewAdditions.m */; };
+		3A1237A315A7067500E404EA /* UIImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1237A115A7067500E404EA /* UIImageAdditions.m */; };
+		3A1237A715A7068B00E404EA /* AngleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1237A615A7068B00E404EA /* AngleUtil.m */; };
+		3A1D0CBD15A70BB2003BAC0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B25D3CF01599171B00428A79 /* main.m */; };
+		3A1D0CC015A70BB2003BAC0F /* GLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25D3D5715991DA000428A79 /* GLViewController.m */; };
+		3A1D0CE615A70BB2003BAC0F /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A12379F15A7067500E404EA /* UIViewAdditions.m */; };
+		3A1D0CE715A70BB2003BAC0F /* UIImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1237A115A7067500E404EA /* UIImageAdditions.m */; };
+		3A1D0CE815A70BB2003BAC0F /* AngleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1237A615A7068B00E404EA /* AngleUtil.m */; };
+		3A1D0CEA15A70BB2003BAC0F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25D3D541599178600428A79 /* CoreVideo.framework */; };
+		3A1D0CEB15A70BB2003BAC0F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25D3D521599176D00428A79 /* OpenGLES.framework */; };
+		3A1D0CEC15A70BB2003BAC0F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25D3D501599176900428A79 /* QuartzCore.framework */; };
+		3A1D0CED15A70BB2003BAC0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25D3CE41599171B00428A79 /* UIKit.framework */; };
+		3A1D0CEE15A70BB2003BAC0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25D3CE61599171B00428A79 /* Foundation.framework */; };
+		3A1D0CEF15A70BB2003BAC0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25D3CE81599171B00428A79 /* CoreGraphics.framework */; };
+		3A1D0CF115A70BB2003BAC0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B25D3CED1599171B00428A79 /* InfoPlist.strings */; };
+		3A1D0CF315A70BB2003BAC0F /* sVertexLighting.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B25D3D8215992B4D00428A79 /* sVertexLighting.fsh */; };
+		3A1D0CF415A70BB2003BAC0F /* sVertexLighting.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B25D3D8315992B4D00428A79 /* sVertexLighting.vsh */; };
+		3A1D0CF515A70BB2003BAC0F /* sFragmentLighting.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B25D2E5C1599CF4A004CA9DE /* sFragmentLighting.fsh */; };
+		3A1D0CF615A70BB2003BAC0F /* sFragmentLighting.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B25D2E5D1599CF4A004CA9DE /* sFragmentLighting.vsh */; };
+		3A1D0CFE15A70BE0003BAC0F /* sBumpSphere.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 3A1237A915A706A500E404EA /* sBumpSphere.fsh */; };
+		3A1D0CFF15A70BE2003BAC0F /* sBumpSphere.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 3A1237AA15A706A500E404EA /* sBumpSphere.vsh */; };
+		3A1D0D0115A70BF6003BAC0F /* BumpSphereAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1237AE15A706B200E404EA /* BumpSphereAppDelegate.m */; };
+		3A1D0D0315A70BFA003BAC0F /* SphereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1237B115A7070C00E404EA /* SphereViewController.m */; };
+		3A1D0D0515A70BFD003BAC0F /* SphereNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1237B615A7071700E404EA /* SphereNode.m */; };
+		3A1D0D0615A70C05003BAC0F /* SphereViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1237B215A7070C00E404EA /* SphereViewController.xib */; };
+		B25D2E601599CF62004CA9DE /* sFragmentLighting.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B25D2E5C1599CF4A004CA9DE /* sFragmentLighting.fsh */; };
+		B25D2E611599CF62004CA9DE /* sFragmentLighting.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B25D2E5D1599CF4A004CA9DE /* sFragmentLighting.vsh */; };
+		B25D2E631599D497004CA9DE /* teapot.mtl in Resources */ = {isa = PBXBuildFile; fileRef = B25D2E621599D497004CA9DE /* teapot.mtl */; };
+		B25D3CE51599171B00428A79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25D3CE41599171B00428A79 /* UIKit.framework */; };
+		B25D3CE71599171B00428A79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25D3CE61599171B00428A79 /* Foundation.framework */; };
+		B25D3CE91599171B00428A79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25D3CE81599171B00428A79 /* CoreGraphics.framework */; };
+		B25D3CEF1599171B00428A79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B25D3CED1599171B00428A79 /* InfoPlist.strings */; };
+		B25D3CF11599171B00428A79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B25D3CF01599171B00428A79 /* main.m */; };
+		B25D3CF51599171B00428A79 /* TeapotAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B25D3CF41599171B00428A79 /* TeapotAppDelegate.m */; };
+		B25D3D511599176900428A79 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25D3D501599176900428A79 /* QuartzCore.framework */; };
+		B25D3D531599176D00428A79 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25D3D521599176D00428A79 /* OpenGLES.framework */; };
+		B25D3D551599178600428A79 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25D3D541599178600428A79 /* CoreVideo.framework */; };
+		B25D3D5815991DA200428A79 /* GLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25D3D5715991DA000428A79 /* GLViewController.m */; };
+		B25D3D5C1599237700428A79 /* TeapotController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25D3D5B1599237400428A79 /* TeapotController.m */; };
+		B25D3D5F1599239600428A79 /* teapot.obj in Resources */ = {isa = PBXBuildFile; fileRef = B25D3D5E1599239600428A79 /* teapot.obj */; };
+		B25D3D7D159928F200428A79 /* TeapotNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B25D3D7C159928F200428A79 /* TeapotNode.m */; };
+		B25D3D8415992B5900428A79 /* sVertexLighting.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B25D3D8215992B4D00428A79 /* sVertexLighting.fsh */; };
+		B25D3D8515992B5900428A79 /* sVertexLighting.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B25D3D8315992B4D00428A79 /* sVertexLighting.vsh */; };
+		B2FF34C615B2AD77001185F4 /* CC3Foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF348315B2AD77001185F4 /* CC3Foundation.m */; };
+		B2FF34C715B2AD77001185F4 /* CC3Foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF348315B2AD77001185F4 /* CC3Foundation.m */; };
+		B2FF34C815B2AD77001185F4 /* CC3GLMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF348515B2AD77001185F4 /* CC3GLMatrix.m */; };
+		B2FF34C915B2AD77001185F4 /* CC3GLMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF348515B2AD77001185F4 /* CC3GLMatrix.m */; };
+		B2FF34CA15B2AD77001185F4 /* CC3Kazmath.c in Sources */ = {isa = PBXBuildFile; fileRef = B2FF348615B2AD77001185F4 /* CC3Kazmath.c */; };
+		B2FF34CB15B2AD77001185F4 /* CC3Kazmath.c in Sources */ = {isa = PBXBuildFile; fileRef = B2FF348615B2AD77001185F4 /* CC3Kazmath.c */; };
+		B2FF34CC15B2AD77001185F4 /* CC3Math.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF348A15B2AD77001185F4 /* CC3Math.m */; };
+		B2FF34CD15B2AD77001185F4 /* CC3Math.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF348A15B2AD77001185F4 /* CC3Math.m */; };
+		B2FF34CE15B2AD77001185F4 /* NSValue+CC3Types.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF348E15B2AD77001185F4 /* NSValue+CC3Types.m */; };
+		B2FF34CF15B2AD77001185F4 /* NSValue+CC3Types.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF348E15B2AD77001185F4 /* NSValue+CC3Types.m */; };
+		B2FF34D015B2AD77001185F4 /* REBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF349015B2AD77001185F4 /* REBuffer.m */; };
+		B2FF34D115B2AD77001185F4 /* REBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF349015B2AD77001185F4 /* REBuffer.m */; };
+		B2FF34D215B2AD77001185F4 /* RECache.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF349215B2AD77001185F4 /* RECache.m */; };
+		B2FF34D315B2AD77001185F4 /* RECache.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF349215B2AD77001185F4 /* RECache.m */; };
+		B2FF34D415B2AD77001185F4 /* RECamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF349415B2AD77001185F4 /* RECamera.m */; };
+		B2FF34D515B2AD77001185F4 /* RECamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF349415B2AD77001185F4 /* RECamera.m */; };
+		B2FF34D615B2AD77001185F4 /* REDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF349615B2AD77001185F4 /* REDirector.m */; };
+		B2FF34D715B2AD77001185F4 /* REDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF349615B2AD77001185F4 /* REDirector.m */; };
+		B2FF34D815B2AD77001185F4 /* REGLStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF349815B2AD77001185F4 /* REGLStateManager.m */; };
+		B2FF34D915B2AD77001185F4 /* REGLStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF349815B2AD77001185F4 /* REGLStateManager.m */; };
+		B2FF34DA15B2AD77001185F4 /* REGLTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF349A15B2AD77001185F4 /* REGLTypes.m */; };
+		B2FF34DB15B2AD77001185F4 /* REGLTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF349A15B2AD77001185F4 /* REGLTypes.m */; };
+		B2FF34DC15B2AD77001185F4 /* REGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF349C15B2AD77001185F4 /* REGLView.m */; };
+		B2FF34DD15B2AD77001185F4 /* REGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF349C15B2AD77001185F4 /* REGLView.m */; };
+		B2FF34DE15B2AD77001185F4 /* REKeyframedMeshNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF349E15B2AD77001185F4 /* REKeyframedMeshNode.m */; };
+		B2FF34DF15B2AD77001185F4 /* REKeyframedMeshNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF349E15B2AD77001185F4 /* REKeyframedMeshNode.m */; };
+		B2FF34E015B2AD77001185F4 /* RELight.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34A015B2AD77001185F4 /* RELight.m */; };
+		B2FF34E115B2AD77001185F4 /* RELight.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34A015B2AD77001185F4 /* RELight.m */; };
+		B2FF34E215B2AD77001185F4 /* REMaterial.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34A215B2AD77001185F4 /* REMaterial.m */; };
+		B2FF34E315B2AD77001185F4 /* REMaterial.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34A215B2AD77001185F4 /* REMaterial.m */; };
+		B2FF34E415B2AD77001185F4 /* RENode.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34A515B2AD77001185F4 /* RENode.m */; };
+		B2FF34E515B2AD77001185F4 /* RENode.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34A515B2AD77001185F4 /* RENode.m */; };
+		B2FF34E615B2AD77001185F4 /* RENSArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34A715B2AD77001185F4 /* RENSArrayAdditions.m */; };
+		B2FF34E715B2AD77001185F4 /* RENSArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34A715B2AD77001185F4 /* RENSArrayAdditions.m */; };
+		B2FF34E815B2AD77001185F4 /* RENSValueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34A915B2AD77001185F4 /* RENSValueAdditions.m */; };
+		B2FF34E915B2AD77001185F4 /* RENSValueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34A915B2AD77001185F4 /* RENSValueAdditions.m */; };
+		B2FF34EA15B2AD77001185F4 /* REProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34AB15B2AD77001185F4 /* REProgram.m */; };
+		B2FF34EB15B2AD77001185F4 /* REProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34AB15B2AD77001185F4 /* REProgram.m */; };
+		B2FF34EC15B2AD77001185F4 /* RERotator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34AD15B2AD77001185F4 /* RERotator.m */; };
+		B2FF34ED15B2AD77001185F4 /* RERotator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34AD15B2AD77001185F4 /* RERotator.m */; };
+		B2FF34EE15B2AD77001185F4 /* REScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34AF15B2AD77001185F4 /* REScene.m */; };
+		B2FF34EF15B2AD77001185F4 /* REScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34AF15B2AD77001185F4 /* REScene.m */; };
+		B2FF34F015B2AD77001185F4 /* REScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34B115B2AD77001185F4 /* REScheduler.m */; };
+		B2FF34F115B2AD77001185F4 /* REScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34B115B2AD77001185F4 /* REScheduler.m */; };
+		B2FF34F215B2AD77001185F4 /* REShader.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34B315B2AD77001185F4 /* REShader.m */; };
+		B2FF34F315B2AD77001185F4 /* REShader.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34B315B2AD77001185F4 /* REShader.m */; };
+		B2FF34F415B2AD77001185F4 /* RESprite.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34B515B2AD77001185F4 /* RESprite.m */; };
+		B2FF34F515B2AD77001185F4 /* RESprite.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34B515B2AD77001185F4 /* RESprite.m */; };
+		B2FF34F615B2AD77001185F4 /* RESpriteBatchNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34B715B2AD77001185F4 /* RESpriteBatchNode.m */; };
+		B2FF34F715B2AD77001185F4 /* RESpriteBatchNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34B715B2AD77001185F4 /* RESpriteBatchNode.m */; };
+		B2FF34F815B2AD77001185F4 /* RETexture.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34B915B2AD77001185F4 /* RETexture.m */; };
+		B2FF34F915B2AD77001185F4 /* RETexture.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34B915B2AD77001185F4 /* RETexture.m */; };
+		B2FF34FA15B2AD77001185F4 /* REVertexArrayObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34BB15B2AD77001185F4 /* REVertexArrayObject.m */; };
+		B2FF34FB15B2AD77001185F4 /* REVertexArrayObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34BB15B2AD77001185F4 /* REVertexArrayObject.m */; };
+		B2FF34FC15B2AD77001185F4 /* REWavefrontMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34BD15B2AD77001185F4 /* REWavefrontMesh.m */; };
+		B2FF34FD15B2AD77001185F4 /* REWavefrontMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34BD15B2AD77001185F4 /* REWavefrontMesh.m */; };
+		B2FF34FE15B2AD77001185F4 /* REWavefrontMeshElementIndexBatch.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34BF15B2AD77001185F4 /* REWavefrontMeshElementIndexBatch.m */; };
+		B2FF34FF15B2AD77001185F4 /* REWavefrontMeshElementIndexBatch.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34BF15B2AD77001185F4 /* REWavefrontMeshElementIndexBatch.m */; };
+		B2FF350015B2AD77001185F4 /* REWavefrontMeshGroupNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34C115B2AD77001185F4 /* REWavefrontMeshGroupNode.m */; };
+		B2FF350115B2AD77001185F4 /* REWavefrontMeshGroupNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34C115B2AD77001185F4 /* REWavefrontMeshGroupNode.m */; };
+		B2FF350215B2AD77001185F4 /* REWavefrontMeshNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34C315B2AD77001185F4 /* REWavefrontMeshNode.m */; };
+		B2FF350315B2AD77001185F4 /* REWavefrontMeshNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34C315B2AD77001185F4 /* REWavefrontMeshNode.m */; };
+		B2FF350415B2AD77001185F4 /* REWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34C515B2AD77001185F4 /* REWorld.m */; };
+		B2FF350515B2AD77001185F4 /* REWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF34C515B2AD77001185F4 /* REWorld.m */; };
+		B2FF350B15B2AD96001185F4 /* sRESprite.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B2FF350715B2AD96001185F4 /* sRESprite.fsh */; };
+		B2FF350C15B2AD96001185F4 /* sRESprite.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B2FF350715B2AD96001185F4 /* sRESprite.fsh */; };
+		B2FF350D15B2AD96001185F4 /* sRESprite.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B2FF350815B2AD96001185F4 /* sRESprite.vsh */; };
+		B2FF350E15B2AD96001185F4 /* sRESprite.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B2FF350815B2AD96001185F4 /* sRESprite.vsh */; };
+		B2FF350F15B2AD96001185F4 /* sRESpriteBatch.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B2FF350915B2AD96001185F4 /* sRESpriteBatch.fsh */; };
+		B2FF351015B2AD96001185F4 /* sRESpriteBatch.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B2FF350915B2AD96001185F4 /* sRESpriteBatch.fsh */; };
+		B2FF351115B2AD96001185F4 /* sRESpriteBatch.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B2FF350A15B2AD96001185F4 /* sRESpriteBatch.vsh */; };
+		B2FF351215B2AD96001185F4 /* sRESpriteBatch.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B2FF350A15B2AD96001185F4 /* sRESpriteBatch.vsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A5FF19C1A7F13EB0065922E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5FF1981A7F13EA0065922E /* ReactKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = ReactKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A5FF1981A7F13EA0065922E /* ReactKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactKit.xcodeproj; path = "../../../../projects/react-native/ReactKit/ReactKit.xcodeproj"; sourceTree = "<group>"; };
+		1A5FF1A21A7F18270065922E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1A5FF1A41A7F18610065922E /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		1A8760A61A808EFF00B33BE2 /* capsule.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = capsule.obj; path = Resources/capsule.obj; sourceTree = "<group>"; };
+		1A8760AA1A8091A400B33BE2 /* box.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = box.obj; path = Resources/box.obj; sourceTree = "<group>"; };
+		1A8760AB1A8091A400B33BE2 /* chicken.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = chicken.obj; path = Resources/chicken.obj; sourceTree = "<group>"; };
+		1A8760B41A8091A400B33BE2 /* cow-parts.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "cow-parts.obj"; path = "Resources/cow-parts.obj"; sourceTree = "<group>"; };
+		1A8760B51A8091A400B33BE2 /* cow.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cow.obj; path = Resources/cow.obj; sourceTree = "<group>"; };
+		1A8760B81A8091A400B33BE2 /* jlongster.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jlongster.obj; path = Resources/jlongster.obj; sourceTree = "<group>"; };
+		1A8760BA1A8091A400B33BE2 /* mass.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mass.obj; path = Resources/mass.obj; sourceTree = "<group>"; };
+		1A8760BF1A8091A400B33BE2 /* pig.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pig.obj; path = Resources/pig.obj; sourceTree = "<group>"; };
+		1A8760E51A81208A00B33BE2 /* box.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = box.mtl; path = Resources/box.mtl; sourceTree = "<group>"; };
+		1A8760E61A81208A00B33BE2 /* chicken.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = chicken.mtl; path = Resources/chicken.mtl; sourceTree = "<group>"; };
+		1A8760EE1A81208A00B33BE2 /* cow-parts.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "cow-parts.mtl"; path = "Resources/cow-parts.mtl"; sourceTree = "<group>"; };
+		1A8760EF1A81208A00B33BE2 /* cow.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cow.mtl; path = Resources/cow.mtl; sourceTree = "<group>"; };
+		1A8760F11A81208A00B33BE2 /* mass.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mass.mtl; path = Resources/mass.mtl; sourceTree = "<group>"; };
+		1A8760F51A81208A00B33BE2 /* pig.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pig.mtl; path = Resources/pig.mtl; sourceTree = "<group>"; };
+		1A8761131A8121F200B33BE2 /* cone.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cone.mtl; path = Resources/cone.mtl; sourceTree = "<group>"; };
+		1A8761141A8121F200B33BE2 /* cone.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cone.obj; path = Resources/cone.obj; sourceTree = "<group>"; };
+		3A12379E15A7067500E404EA /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
+		3A12379F15A7067500E404EA /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
+		3A1237A015A7067500E404EA /* UIImageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageAdditions.h; sourceTree = "<group>"; };
+		3A1237A115A7067500E404EA /* UIImageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageAdditions.m; sourceTree = "<group>"; };
+		3A1237A515A7068B00E404EA /* AngleUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngleUtil.h; sourceTree = "<group>"; };
+		3A1237A615A7068B00E404EA /* AngleUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngleUtil.m; sourceTree = "<group>"; };
+		3A1237A915A706A500E404EA /* sBumpSphere.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = sBumpSphere.fsh; sourceTree = "<group>"; };
+		3A1237AA15A706A500E404EA /* sBumpSphere.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = sBumpSphere.vsh; sourceTree = "<group>"; };
+		3A1237AD15A706B200E404EA /* BumpSphereAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BumpSphereAppDelegate.h; sourceTree = "<group>"; };
+		3A1237AE15A706B200E404EA /* BumpSphereAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BumpSphereAppDelegate.m; sourceTree = "<group>"; };
+		3A1237B015A7070C00E404EA /* SphereViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereViewController.h; sourceTree = "<group>"; };
+		3A1237B115A7070C00E404EA /* SphereViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereViewController.m; sourceTree = "<group>"; };
+		3A1237B215A7070C00E404EA /* SphereViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SphereViewController.xib; sourceTree = "<group>"; };
+		3A1237B515A7071700E404EA /* SphereNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereNode.h; sourceTree = "<group>"; };
+		3A1237B615A7071700E404EA /* SphereNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereNode.m; sourceTree = "<group>"; };
+		3A1D0CFB15A70BB2003BAC0F /* BumpSphereExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BumpSphereExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25D2E5C1599CF4A004CA9DE /* sFragmentLighting.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = sFragmentLighting.fsh; sourceTree = "<group>"; };
+		B25D2E5D1599CF4A004CA9DE /* sFragmentLighting.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = sFragmentLighting.vsh; sourceTree = "<group>"; };
+		B25D2E621599D497004CA9DE /* teapot.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = teapot.mtl; path = Resources/teapot.mtl; sourceTree = "<group>"; };
+		B25D3CE01599171B00428A79 /* TeapotExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeapotExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25D3CE41599171B00428A79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B25D3CE61599171B00428A79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B25D3CE81599171B00428A79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B25D3CEC1599171B00428A79 /* Rend Example Collection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rend Example Collection-Info.plist"; sourceTree = "<group>"; };
+		B25D3CEE1599171B00428A79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B25D3CF01599171B00428A79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B25D3CF21599171B00428A79 /* Rend Example Collection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rend Example Collection-Prefix.pch"; sourceTree = "<group>"; };
+		B25D3CF31599171B00428A79 /* TeapotAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeapotAppDelegate.h; sourceTree = "<group>"; };
+		B25D3CF41599171B00428A79 /* TeapotAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeapotAppDelegate.m; sourceTree = "<group>"; };
+		B25D3D501599176900428A79 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B25D3D521599176D00428A79 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B25D3D541599178600428A79 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B25D3D5615991D9D00428A79 /* GLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLViewController.h; sourceTree = "<group>"; };
+		B25D3D5715991DA000428A79 /* GLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLViewController.m; sourceTree = "<group>"; };
+		B25D3D5A1599237100428A79 /* TeapotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeapotController.h; sourceTree = "<group>"; };
+		B25D3D5B1599237400428A79 /* TeapotController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeapotController.m; sourceTree = "<group>"; };
+		B25D3D5E1599239600428A79 /* teapot.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = teapot.obj; path = Resources/teapot.obj; sourceTree = "<group>"; };
+		B25D3D7B159928F200428A79 /* TeapotNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeapotNode.h; sourceTree = "<group>"; };
+		B25D3D7C159928F200428A79 /* TeapotNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeapotNode.m; sourceTree = "<group>"; };
+		B25D3D8215992B4D00428A79 /* sVertexLighting.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = sVertexLighting.fsh; sourceTree = "<group>"; };
+		B25D3D8315992B4D00428A79 /* sVertexLighting.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = sVertexLighting.vsh; sourceTree = "<group>"; };
+		B2FF348215B2AD77001185F4 /* CC3Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Foundation.h; sourceTree = "<group>"; };
+		B2FF348315B2AD77001185F4 /* CC3Foundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Foundation.m; sourceTree = "<group>"; };
+		B2FF348415B2AD77001185F4 /* CC3GLMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3GLMatrix.h; sourceTree = "<group>"; };
+		B2FF348515B2AD77001185F4 /* CC3GLMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3GLMatrix.m; sourceTree = "<group>"; };
+		B2FF348615B2AD77001185F4 /* CC3Kazmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CC3Kazmath.c; sourceTree = "<group>"; };
+		B2FF348715B2AD77001185F4 /* CC3Kazmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Kazmath.h; sourceTree = "<group>"; };
+		B2FF348815B2AD77001185F4 /* CC3Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Logging.h; sourceTree = "<group>"; };
+		B2FF348915B2AD77001185F4 /* CC3Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Math.h; sourceTree = "<group>"; };
+		B2FF348A15B2AD77001185F4 /* CC3Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Math.m; sourceTree = "<group>"; };
+		B2FF348B15B2AD77001185F4 /* CC3MathInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3MathInclude.h; sourceTree = "<group>"; };
+		B2FF348C15B2AD77001185F4 /* ccTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccTypes.h; sourceTree = "<group>"; };
+		B2FF348D15B2AD77001185F4 /* NSValue+CC3Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+CC3Types.h"; sourceTree = "<group>"; };
+		B2FF348E15B2AD77001185F4 /* NSValue+CC3Types.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+CC3Types.m"; sourceTree = "<group>"; };
+		B2FF348F15B2AD77001185F4 /* REBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REBuffer.h; sourceTree = "<group>"; };
+		B2FF349015B2AD77001185F4 /* REBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REBuffer.m; sourceTree = "<group>"; };
+		B2FF349115B2AD77001185F4 /* RECache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECache.h; sourceTree = "<group>"; };
+		B2FF349215B2AD77001185F4 /* RECache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECache.m; sourceTree = "<group>"; };
+		B2FF349315B2AD77001185F4 /* RECamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECamera.h; sourceTree = "<group>"; };
+		B2FF349415B2AD77001185F4 /* RECamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECamera.m; sourceTree = "<group>"; };
+		B2FF349515B2AD77001185F4 /* REDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDirector.h; sourceTree = "<group>"; };
+		B2FF349615B2AD77001185F4 /* REDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDirector.m; sourceTree = "<group>"; };
+		B2FF349715B2AD77001185F4 /* REGLStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REGLStateManager.h; sourceTree = "<group>"; };
+		B2FF349815B2AD77001185F4 /* REGLStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REGLStateManager.m; sourceTree = "<group>"; };
+		B2FF349915B2AD77001185F4 /* REGLTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REGLTypes.h; sourceTree = "<group>"; };
+		B2FF349A15B2AD77001185F4 /* REGLTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REGLTypes.m; sourceTree = "<group>"; };
+		B2FF349B15B2AD77001185F4 /* REGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REGLView.h; sourceTree = "<group>"; };
+		B2FF349C15B2AD77001185F4 /* REGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REGLView.m; sourceTree = "<group>"; };
+		B2FF349D15B2AD77001185F4 /* REKeyframedMeshNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REKeyframedMeshNode.h; sourceTree = "<group>"; };
+		B2FF349E15B2AD77001185F4 /* REKeyframedMeshNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REKeyframedMeshNode.m; sourceTree = "<group>"; };
+		B2FF349F15B2AD77001185F4 /* RELight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RELight.h; sourceTree = "<group>"; };
+		B2FF34A015B2AD77001185F4 /* RELight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RELight.m; sourceTree = "<group>"; };
+		B2FF34A115B2AD77001185F4 /* REMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMaterial.h; sourceTree = "<group>"; };
+		B2FF34A215B2AD77001185F4 /* REMaterial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMaterial.m; sourceTree = "<group>"; };
+		B2FF34A315B2AD77001185F4 /* Rend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rend.h; sourceTree = "<group>"; };
+		B2FF34A415B2AD77001185F4 /* RENode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RENode.h; sourceTree = "<group>"; };
+		B2FF34A515B2AD77001185F4 /* RENode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RENode.m; sourceTree = "<group>"; };
+		B2FF34A615B2AD77001185F4 /* RENSArrayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RENSArrayAdditions.h; sourceTree = "<group>"; };
+		B2FF34A715B2AD77001185F4 /* RENSArrayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RENSArrayAdditions.m; sourceTree = "<group>"; };
+		B2FF34A815B2AD77001185F4 /* RENSValueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RENSValueAdditions.h; sourceTree = "<group>"; };
+		B2FF34A915B2AD77001185F4 /* RENSValueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RENSValueAdditions.m; sourceTree = "<group>"; };
+		B2FF34AA15B2AD77001185F4 /* REProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REProgram.h; sourceTree = "<group>"; };
+		B2FF34AB15B2AD77001185F4 /* REProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REProgram.m; sourceTree = "<group>"; };
+		B2FF34AC15B2AD77001185F4 /* RERotator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RERotator.h; sourceTree = "<group>"; };
+		B2FF34AD15B2AD77001185F4 /* RERotator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RERotator.m; sourceTree = "<group>"; };
+		B2FF34AE15B2AD77001185F4 /* REScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REScene.h; sourceTree = "<group>"; };
+		B2FF34AF15B2AD77001185F4 /* REScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REScene.m; sourceTree = "<group>"; };
+		B2FF34B015B2AD77001185F4 /* REScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REScheduler.h; sourceTree = "<group>"; };
+		B2FF34B115B2AD77001185F4 /* REScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REScheduler.m; sourceTree = "<group>"; };
+		B2FF34B215B2AD77001185F4 /* REShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REShader.h; sourceTree = "<group>"; };
+		B2FF34B315B2AD77001185F4 /* REShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REShader.m; sourceTree = "<group>"; };
+		B2FF34B415B2AD77001185F4 /* RESprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESprite.h; sourceTree = "<group>"; };
+		B2FF34B515B2AD77001185F4 /* RESprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESprite.m; sourceTree = "<group>"; };
+		B2FF34B615B2AD77001185F4 /* RESpriteBatchNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESpriteBatchNode.h; sourceTree = "<group>"; };
+		B2FF34B715B2AD77001185F4 /* RESpriteBatchNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESpriteBatchNode.m; sourceTree = "<group>"; };
+		B2FF34B815B2AD77001185F4 /* RETexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RETexture.h; sourceTree = "<group>"; };
+		B2FF34B915B2AD77001185F4 /* RETexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RETexture.m; sourceTree = "<group>"; };
+		B2FF34BA15B2AD77001185F4 /* REVertexArrayObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REVertexArrayObject.h; sourceTree = "<group>"; };
+		B2FF34BB15B2AD77001185F4 /* REVertexArrayObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REVertexArrayObject.m; sourceTree = "<group>"; };
+		B2FF34BC15B2AD77001185F4 /* REWavefrontMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REWavefrontMesh.h; sourceTree = "<group>"; };
+		B2FF34BD15B2AD77001185F4 /* REWavefrontMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REWavefrontMesh.m; sourceTree = "<group>"; };
+		B2FF34BE15B2AD77001185F4 /* REWavefrontMeshElementIndexBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REWavefrontMeshElementIndexBatch.h; sourceTree = "<group>"; };
+		B2FF34BF15B2AD77001185F4 /* REWavefrontMeshElementIndexBatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REWavefrontMeshElementIndexBatch.m; sourceTree = "<group>"; };
+		B2FF34C015B2AD77001185F4 /* REWavefrontMeshGroupNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REWavefrontMeshGroupNode.h; sourceTree = "<group>"; };
+		B2FF34C115B2AD77001185F4 /* REWavefrontMeshGroupNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REWavefrontMeshGroupNode.m; sourceTree = "<group>"; };
+		B2FF34C215B2AD77001185F4 /* REWavefrontMeshNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REWavefrontMeshNode.h; sourceTree = "<group>"; };
+		B2FF34C315B2AD77001185F4 /* REWavefrontMeshNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REWavefrontMeshNode.m; sourceTree = "<group>"; };
+		B2FF34C415B2AD77001185F4 /* REWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REWorld.h; sourceTree = "<group>"; };
+		B2FF34C515B2AD77001185F4 /* REWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REWorld.m; sourceTree = "<group>"; };
+		B2FF350715B2AD96001185F4 /* sRESprite.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = sRESprite.fsh; sourceTree = "<group>"; };
+		B2FF350815B2AD96001185F4 /* sRESprite.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = sRESprite.vsh; sourceTree = "<group>"; };
+		B2FF350915B2AD96001185F4 /* sRESpriteBatch.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = sRESpriteBatch.fsh; sourceTree = "<group>"; };
+		B2FF350A15B2AD96001185F4 /* sRESpriteBatch.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = sRESpriteBatch.vsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A1D0CE915A70BB2003BAC0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5FF1A01A7F14A60065922E /* libReactKit.a in Frameworks */,
+				3A1D0CEA15A70BB2003BAC0F /* CoreVideo.framework in Frameworks */,
+				3A1D0CEB15A70BB2003BAC0F /* OpenGLES.framework in Frameworks */,
+				3A1D0CEC15A70BB2003BAC0F /* QuartzCore.framework in Frameworks */,
+				3A1D0CED15A70BB2003BAC0F /* UIKit.framework in Frameworks */,
+				3A1D0CEE15A70BB2003BAC0F /* Foundation.framework in Frameworks */,
+				3A1D0CEF15A70BB2003BAC0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25D3CDD1599171B00428A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAF62DE1A7F3F0F00D39B43 /* JavaScriptCore.framework in Frameworks */,
+				1A5FF1A31A7F18270065922E /* GLKit.framework in Frameworks */,
+				1A5FF1A11A7F15990065922E /* libReactKit.a in Frameworks */,
+				B25D3D551599178600428A79 /* CoreVideo.framework in Frameworks */,
+				B25D3D531599176D00428A79 /* OpenGLES.framework in Frameworks */,
+				B25D3D511599176900428A79 /* QuartzCore.framework in Frameworks */,
+				B25D3CE51599171B00428A79 /* UIKit.framework in Frameworks */,
+				B25D3CE71599171B00428A79 /* Foundation.framework in Frameworks */,
+				B25D3CE91599171B00428A79 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A5FF1991A7F13EA0065922E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A5FF19D1A7F13EB0065922E /* libReactKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A12372015A7040200E404EA /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				3A12379A15A705B800E404EA /* Shared Content */,
+				B25D3D60159923B200428A79 /* Teapot Example */,
+				3A12372315A7041E00E404EA /* BumpSphere Example */,
+			);
+			name = Examples;
+			sourceTree = "<group>";
+		};
+		3A12372315A7041E00E404EA /* BumpSphere Example */ = {
+			isa = PBXGroup;
+			children = (
+				3A1237A815A7069900E404EA /* Shaders */,
+				3A1237AD15A706B200E404EA /* BumpSphereAppDelegate.h */,
+				3A1237AE15A706B200E404EA /* BumpSphereAppDelegate.m */,
+				3A1237B015A7070C00E404EA /* SphereViewController.h */,
+				3A1237B115A7070C00E404EA /* SphereViewController.m */,
+				3A1237B215A7070C00E404EA /* SphereViewController.xib */,
+				3A1237B515A7071700E404EA /* SphereNode.h */,
+				3A1237B615A7071700E404EA /* SphereNode.m */,
+			);
+			name = "BumpSphere Example";
+			sourceTree = "<group>";
+		};
+		3A12379A15A705B800E404EA /* Shared Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A12379B15A705C000E404EA /* Shaders */,
+				B25D3D5D1599239300428A79 /* Resources */,
+				3A1237A415A7067A00E404EA /* Utilities */,
+				3A12379D15A7066900E404EA /* Additions */,
+				B25D3D5615991D9D00428A79 /* GLViewController.h */,
+				B25D3D5715991DA000428A79 /* GLViewController.m */,
+			);
+			name = "Shared Content";
+			sourceTree = "<group>";
+		};
+		3A12379B15A705C000E404EA /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				B25D3D8215992B4D00428A79 /* sVertexLighting.fsh */,
+				B25D3D8315992B4D00428A79 /* sVertexLighting.vsh */,
+				B25D2E5C1599CF4A004CA9DE /* sFragmentLighting.fsh */,
+				B25D2E5D1599CF4A004CA9DE /* sFragmentLighting.vsh */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		3A12379C15A705F800E404EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A8761131A8121F200B33BE2 /* cone.mtl */,
+				1A8761141A8121F200B33BE2 /* cone.obj */,
+				1A8760E51A81208A00B33BE2 /* box.mtl */,
+				1A8760E61A81208A00B33BE2 /* chicken.mtl */,
+				1A8760EE1A81208A00B33BE2 /* cow-parts.mtl */,
+				1A8760EF1A81208A00B33BE2 /* cow.mtl */,
+				1A8760F11A81208A00B33BE2 /* mass.mtl */,
+				1A8760F51A81208A00B33BE2 /* pig.mtl */,
+				1A8760AA1A8091A400B33BE2 /* box.obj */,
+				1A8760AB1A8091A400B33BE2 /* chicken.obj */,
+				1A8760B41A8091A400B33BE2 /* cow-parts.obj */,
+				1A8760B51A8091A400B33BE2 /* cow.obj */,
+				1A8760B81A8091A400B33BE2 /* jlongster.obj */,
+				1A8760BA1A8091A400B33BE2 /* mass.obj */,
+				1A8760BF1A8091A400B33BE2 /* pig.obj */,
+				1A8760A61A808EFF00B33BE2 /* capsule.obj */,
+				B25D3D5E1599239600428A79 /* teapot.obj */,
+				B25D2E621599D497004CA9DE /* teapot.mtl */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3A12379D15A7066900E404EA /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				3A12379E15A7067500E404EA /* UIViewAdditions.h */,
+				3A12379F15A7067500E404EA /* UIViewAdditions.m */,
+				3A1237A015A7067500E404EA /* UIImageAdditions.h */,
+				3A1237A115A7067500E404EA /* UIImageAdditions.m */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		3A1237A415A7067A00E404EA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3A1237A515A7068B00E404EA /* AngleUtil.h */,
+				3A1237A615A7068B00E404EA /* AngleUtil.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		3A1237A815A7069900E404EA /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				3A1237A915A706A500E404EA /* sBumpSphere.fsh */,
+				3A1237AA15A706A500E404EA /* sBumpSphere.vsh */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		B25D2E5015999D8F004CA9DE /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Shaders;
+			path = ../../../Shaders;
+			sourceTree = "<group>";
+		};
+		B25D3CD51599171B00428A79 = {
+			isa = PBXGroup;
+			children = (
+				1A5FF1981A7F13EA0065922E /* ReactKit.xcodeproj */,
+				B25D3CEA1599171B00428A79 /* Rend Example Collection */,
+				B25D3CE31599171B00428A79 /* Frameworks */,
+				B25D3CE11599171B00428A79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B25D3CE11599171B00428A79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B25D3CE01599171B00428A79 /* TeapotExample.app */,
+				3A1D0CFB15A70BB2003BAC0F /* BumpSphereExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B25D3CE31599171B00428A79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A5FF1A41A7F18610065922E /* JavaScriptCore.framework */,
+				1A5FF1A21A7F18270065922E /* GLKit.framework */,
+				B25D3D541599178600428A79 /* CoreVideo.framework */,
+				B25D3D521599176D00428A79 /* OpenGLES.framework */,
+				B25D3D501599176900428A79 /* QuartzCore.framework */,
+				B25D3CE41599171B00428A79 /* UIKit.framework */,
+				B25D3CE61599171B00428A79 /* Foundation.framework */,
+				B25D3CE81599171B00428A79 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B25D3CEA1599171B00428A79 /* Rend Example Collection */ = {
+			isa = PBXGroup;
+			children = (
+				B2FF348015B2AD77001185F4 /* Rend */,
+				B2FF350615B2AD96001185F4 /* Shaders */,
+				3A12372015A7040200E404EA /* Examples */,
+				B25D3CEB1599171B00428A79 /* Supporting Files */,
+			);
+			path = "Rend Example Collection";
+			sourceTree = "<group>";
+		};
+		B25D3CEB1599171B00428A79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B25D3CED1599171B00428A79 /* InfoPlist.strings */,
+				B25D3CF01599171B00428A79 /* main.m */,
+				B25D3CF21599171B00428A79 /* Rend Example Collection-Prefix.pch */,
+				B25D3CEC1599171B00428A79 /* Rend Example Collection-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B25D3D5D1599239300428A79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B25D3D60159923B200428A79 /* Teapot Example */ = {
+			isa = PBXGroup;
+			children = (
+				B25D2E5015999D8F004CA9DE /* Shaders */,
+				3A12379C15A705F800E404EA /* Resources */,
+				B25D3CF31599171B00428A79 /* TeapotAppDelegate.h */,
+				B25D3CF41599171B00428A79 /* TeapotAppDelegate.m */,
+				B25D3D5A1599237100428A79 /* TeapotController.h */,
+				B25D3D5B1599237400428A79 /* TeapotController.m */,
+				B25D3D7B159928F200428A79 /* TeapotNode.h */,
+				B25D3D7C159928F200428A79 /* TeapotNode.m */,
+			);
+			name = "Teapot Example";
+			sourceTree = "<group>";
+		};
+		B2FF348015B2AD77001185F4 /* Rend */ = {
+			isa = PBXGroup;
+			children = (
+				B2FF348115B2AD77001185F4 /* CC3Math */,
+				B2FF348F15B2AD77001185F4 /* REBuffer.h */,
+				B2FF349015B2AD77001185F4 /* REBuffer.m */,
+				B2FF349115B2AD77001185F4 /* RECache.h */,
+				B2FF349215B2AD77001185F4 /* RECache.m */,
+				B2FF349315B2AD77001185F4 /* RECamera.h */,
+				B2FF349415B2AD77001185F4 /* RECamera.m */,
+				B2FF349515B2AD77001185F4 /* REDirector.h */,
+				B2FF349615B2AD77001185F4 /* REDirector.m */,
+				B2FF349715B2AD77001185F4 /* REGLStateManager.h */,
+				B2FF349815B2AD77001185F4 /* REGLStateManager.m */,
+				B2FF349915B2AD77001185F4 /* REGLTypes.h */,
+				B2FF349A15B2AD77001185F4 /* REGLTypes.m */,
+				B2FF349B15B2AD77001185F4 /* REGLView.h */,
+				B2FF349C15B2AD77001185F4 /* REGLView.m */,
+				B2FF349D15B2AD77001185F4 /* REKeyframedMeshNode.h */,
+				B2FF349E15B2AD77001185F4 /* REKeyframedMeshNode.m */,
+				B2FF349F15B2AD77001185F4 /* RELight.h */,
+				B2FF34A015B2AD77001185F4 /* RELight.m */,
+				B2FF34A115B2AD77001185F4 /* REMaterial.h */,
+				B2FF34A215B2AD77001185F4 /* REMaterial.m */,
+				B2FF34A315B2AD77001185F4 /* Rend.h */,
+				B2FF34A415B2AD77001185F4 /* RENode.h */,
+				B2FF34A515B2AD77001185F4 /* RENode.m */,
+				B2FF34A615B2AD77001185F4 /* RENSArrayAdditions.h */,
+				B2FF34A715B2AD77001185F4 /* RENSArrayAdditions.m */,
+				B2FF34A815B2AD77001185F4 /* RENSValueAdditions.h */,
+				B2FF34A915B2AD77001185F4 /* RENSValueAdditions.m */,
+				B2FF34AA15B2AD77001185F4 /* REProgram.h */,
+				B2FF34AB15B2AD77001185F4 /* REProgram.m */,
+				B2FF34AC15B2AD77001185F4 /* RERotator.h */,
+				B2FF34AD15B2AD77001185F4 /* RERotator.m */,
+				B2FF34AE15B2AD77001185F4 /* REScene.h */,
+				B2FF34AF15B2AD77001185F4 /* REScene.m */,
+				B2FF34B015B2AD77001185F4 /* REScheduler.h */,
+				B2FF34B115B2AD77001185F4 /* REScheduler.m */,
+				B2FF34B215B2AD77001185F4 /* REShader.h */,
+				B2FF34B315B2AD77001185F4 /* REShader.m */,
+				B2FF34B415B2AD77001185F4 /* RESprite.h */,
+				B2FF34B515B2AD77001185F4 /* RESprite.m */,
+				B2FF34B615B2AD77001185F4 /* RESpriteBatchNode.h */,
+				B2FF34B715B2AD77001185F4 /* RESpriteBatchNode.m */,
+				B2FF34B815B2AD77001185F4 /* RETexture.h */,
+				B2FF34B915B2AD77001185F4 /* RETexture.m */,
+				B2FF34BA15B2AD77001185F4 /* REVertexArrayObject.h */,
+				B2FF34BB15B2AD77001185F4 /* REVertexArrayObject.m */,
+				B2FF34BC15B2AD77001185F4 /* REWavefrontMesh.h */,
+				B2FF34BD15B2AD77001185F4 /* REWavefrontMesh.m */,
+				B2FF34BE15B2AD77001185F4 /* REWavefrontMeshElementIndexBatch.h */,
+				B2FF34BF15B2AD77001185F4 /* REWavefrontMeshElementIndexBatch.m */,
+				B2FF34C015B2AD77001185F4 /* REWavefrontMeshGroupNode.h */,
+				B2FF34C115B2AD77001185F4 /* REWavefrontMeshGroupNode.m */,
+				B2FF34C215B2AD77001185F4 /* REWavefrontMeshNode.h */,
+				B2FF34C315B2AD77001185F4 /* REWavefrontMeshNode.m */,
+				B2FF34C415B2AD77001185F4 /* REWorld.h */,
+				B2FF34C515B2AD77001185F4 /* REWorld.m */,
+			);
+			name = Rend;
+			path = ../../../Classes;
+			sourceTree = "<group>";
+		};
+		B2FF348115B2AD77001185F4 /* CC3Math */ = {
+			isa = PBXGroup;
+			children = (
+				B2FF348215B2AD77001185F4 /* CC3Foundation.h */,
+				B2FF348315B2AD77001185F4 /* CC3Foundation.m */,
+				B2FF348415B2AD77001185F4 /* CC3GLMatrix.h */,
+				B2FF348515B2AD77001185F4 /* CC3GLMatrix.m */,
+				B2FF348615B2AD77001185F4 /* CC3Kazmath.c */,
+				B2FF348715B2AD77001185F4 /* CC3Kazmath.h */,
+				B2FF348815B2AD77001185F4 /* CC3Logging.h */,
+				B2FF348915B2AD77001185F4 /* CC3Math.h */,
+				B2FF348A15B2AD77001185F4 /* CC3Math.m */,
+				B2FF348B15B2AD77001185F4 /* CC3MathInclude.h */,
+				B2FF348C15B2AD77001185F4 /* ccTypes.h */,
+				B2FF348D15B2AD77001185F4 /* NSValue+CC3Types.h */,
+				B2FF348E15B2AD77001185F4 /* NSValue+CC3Types.m */,
+			);
+			path = CC3Math;
+			sourceTree = "<group>";
+		};
+		B2FF350615B2AD96001185F4 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				B2FF350715B2AD96001185F4 /* sRESprite.fsh */,
+				B2FF350815B2AD96001185F4 /* sRESprite.vsh */,
+				B2FF350915B2AD96001185F4 /* sRESpriteBatch.fsh */,
+				B2FF350A15B2AD96001185F4 /* sRESpriteBatch.vsh */,
+			);
+			name = Shaders;
+			path = ../../../Shaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A1D0CBB15A70BB2003BAC0F /* BumpSphereExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1D0CF815A70BB2003BAC0F /* Build configuration list for PBXNativeTarget "BumpSphereExample" */;
+			buildPhases = (
+				3A1D0CBC15A70BB2003BAC0F /* Sources */,
+				3A1D0CE915A70BB2003BAC0F /* Frameworks */,
+				3A1D0CF015A70BB2003BAC0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BumpSphereExample;
+			productName = "Rend Example Collection";
+			productReference = 3A1D0CFB15A70BB2003BAC0F /* BumpSphereExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B25D3CDF1599171B00428A79 /* TeapotExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25D3CF81599171B00428A79 /* Build configuration list for PBXNativeTarget "TeapotExample" */;
+			buildPhases = (
+				B25D3CDC1599171B00428A79 /* Sources */,
+				B25D3CDD1599171B00428A79 /* Frameworks */,
+				B25D3CDE1599171B00428A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeapotExample;
+			productName = "Rend Example Collection";
+			productReference = B25D3CE01599171B00428A79 /* TeapotExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B25D3CD71599171B00428A79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Monterosa;
+			};
+			buildConfigurationList = B25D3CDA1599171B00428A79 /* Build configuration list for PBXProject "Rend Example Collection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B25D3CD51599171B00428A79;
+			productRefGroup = B25D3CE11599171B00428A79 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1A5FF1991A7F13EA0065922E /* Products */;
+					ProjectRef = 1A5FF1981A7F13EA0065922E /* ReactKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B25D3CDF1599171B00428A79 /* TeapotExample */,
+				3A1D0CBB15A70BB2003BAC0F /* BumpSphereExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1A5FF19D1A7F13EB0065922E /* libReactKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactKit.a;
+			remoteRef = 1A5FF19C1A7F13EB0065922E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A1D0CF015A70BB2003BAC0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FF350C15B2AD96001185F4 /* sRESprite.fsh in Resources */,
+				B2FF350E15B2AD96001185F4 /* sRESprite.vsh in Resources */,
+				B2FF351015B2AD96001185F4 /* sRESpriteBatch.fsh in Resources */,
+				B2FF351215B2AD96001185F4 /* sRESpriteBatch.vsh in Resources */,
+				3A1D0D0615A70C05003BAC0F /* SphereViewController.xib in Resources */,
+				3A1D0CF115A70BB2003BAC0F /* InfoPlist.strings in Resources */,
+				3A1D0CF315A70BB2003BAC0F /* sVertexLighting.fsh in Resources */,
+				3A1D0CF415A70BB2003BAC0F /* sVertexLighting.vsh in Resources */,
+				3A1D0CF515A70BB2003BAC0F /* sFragmentLighting.fsh in Resources */,
+				3A1D0CF615A70BB2003BAC0F /* sFragmentLighting.vsh in Resources */,
+				3A1D0CFE15A70BE0003BAC0F /* sBumpSphere.fsh in Resources */,
+				3A1D0CFF15A70BE2003BAC0F /* sBumpSphere.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25D3CDE1599171B00428A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8760DA1A8091A400B33BE2 /* pig.obj in Resources */,
+				B2FF350B15B2AD96001185F4 /* sRESprite.fsh in Resources */,
+				1A8760FF1A81208A00B33BE2 /* chicken.mtl in Resources */,
+				1A8761151A8121F200B33BE2 /* cone.mtl in Resources */,
+				1A8761161A8121F200B33BE2 /* cone.obj in Resources */,
+				B2FF350D15B2AD96001185F4 /* sRESprite.vsh in Resources */,
+				B2FF350F15B2AD96001185F4 /* sRESpriteBatch.fsh in Resources */,
+				B2FF351115B2AD96001185F4 /* sRESpriteBatch.vsh in Resources */,
+				B25D3CEF1599171B00428A79 /* InfoPlist.strings in Resources */,
+				1A8760CF1A8091A400B33BE2 /* cow-parts.obj in Resources */,
+				1A8760D01A8091A400B33BE2 /* cow.obj in Resources */,
+				1A8760A71A808EFF00B33BE2 /* capsule.obj in Resources */,
+				1A8760D51A8091A400B33BE2 /* mass.obj in Resources */,
+				B25D3D5F1599239600428A79 /* teapot.obj in Resources */,
+				B25D3D8415992B5900428A79 /* sVertexLighting.fsh in Resources */,
+				1A87610A1A81208A00B33BE2 /* mass.mtl in Resources */,
+				1A8760D31A8091A400B33BE2 /* jlongster.obj in Resources */,
+				1A8760C61A8091A400B33BE2 /* chicken.obj in Resources */,
+				1A8761071A81208A00B33BE2 /* cow-parts.mtl in Resources */,
+				B25D3D8515992B5900428A79 /* sVertexLighting.vsh in Resources */,
+				B25D2E601599CF62004CA9DE /* sFragmentLighting.fsh in Resources */,
+				1A8761081A81208A00B33BE2 /* cow.mtl in Resources */,
+				1A8760FE1A81208A00B33BE2 /* box.mtl in Resources */,
+				1A87610E1A81208A00B33BE2 /* pig.mtl in Resources */,
+				1A8760C51A8091A400B33BE2 /* box.obj in Resources */,
+				B25D2E611599CF62004CA9DE /* sFragmentLighting.vsh in Resources */,
+				B25D2E631599D497004CA9DE /* teapot.mtl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A1D0CBC15A70BB2003BAC0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1D0CBD15A70BB2003BAC0F /* main.m in Sources */,
+				3A1D0CC015A70BB2003BAC0F /* GLViewController.m in Sources */,
+				3A1D0CE615A70BB2003BAC0F /* UIViewAdditions.m in Sources */,
+				3A1D0CE715A70BB2003BAC0F /* UIImageAdditions.m in Sources */,
+				3A1D0CE815A70BB2003BAC0F /* AngleUtil.m in Sources */,
+				3A1D0D0115A70BF6003BAC0F /* BumpSphereAppDelegate.m in Sources */,
+				3A1D0D0315A70BFA003BAC0F /* SphereViewController.m in Sources */,
+				3A1D0D0515A70BFD003BAC0F /* SphereNode.m in Sources */,
+				B2FF34C715B2AD77001185F4 /* CC3Foundation.m in Sources */,
+				B2FF34C915B2AD77001185F4 /* CC3GLMatrix.m in Sources */,
+				B2FF34CB15B2AD77001185F4 /* CC3Kazmath.c in Sources */,
+				B2FF34CD15B2AD77001185F4 /* CC3Math.m in Sources */,
+				B2FF34CF15B2AD77001185F4 /* NSValue+CC3Types.m in Sources */,
+				B2FF34D115B2AD77001185F4 /* REBuffer.m in Sources */,
+				B2FF34D315B2AD77001185F4 /* RECache.m in Sources */,
+				B2FF34D515B2AD77001185F4 /* RECamera.m in Sources */,
+				B2FF34D715B2AD77001185F4 /* REDirector.m in Sources */,
+				B2FF34D915B2AD77001185F4 /* REGLStateManager.m in Sources */,
+				B2FF34DB15B2AD77001185F4 /* REGLTypes.m in Sources */,
+				B2FF34DD15B2AD77001185F4 /* REGLView.m in Sources */,
+				B2FF34DF15B2AD77001185F4 /* REKeyframedMeshNode.m in Sources */,
+				B2FF34E115B2AD77001185F4 /* RELight.m in Sources */,
+				B2FF34E315B2AD77001185F4 /* REMaterial.m in Sources */,
+				B2FF34E515B2AD77001185F4 /* RENode.m in Sources */,
+				B2FF34E715B2AD77001185F4 /* RENSArrayAdditions.m in Sources */,
+				B2FF34E915B2AD77001185F4 /* RENSValueAdditions.m in Sources */,
+				B2FF34EB15B2AD77001185F4 /* REProgram.m in Sources */,
+				B2FF34ED15B2AD77001185F4 /* RERotator.m in Sources */,
+				B2FF34EF15B2AD77001185F4 /* REScene.m in Sources */,
+				B2FF34F115B2AD77001185F4 /* REScheduler.m in Sources */,
+				B2FF34F315B2AD77001185F4 /* REShader.m in Sources */,
+				B2FF34F515B2AD77001185F4 /* RESprite.m in Sources */,
+				B2FF34F715B2AD77001185F4 /* RESpriteBatchNode.m in Sources */,
+				B2FF34F915B2AD77001185F4 /* RETexture.m in Sources */,
+				B2FF34FB15B2AD77001185F4 /* REVertexArrayObject.m in Sources */,
+				B2FF34FD15B2AD77001185F4 /* REWavefrontMesh.m in Sources */,
+				B2FF34FF15B2AD77001185F4 /* REWavefrontMeshElementIndexBatch.m in Sources */,
+				B2FF350115B2AD77001185F4 /* REWavefrontMeshGroupNode.m in Sources */,
+				B2FF350315B2AD77001185F4 /* REWavefrontMeshNode.m in Sources */,
+				B2FF350515B2AD77001185F4 /* REWorld.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25D3CDC1599171B00428A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D3CF11599171B00428A79 /* main.m in Sources */,
+				B25D3CF51599171B00428A79 /* TeapotAppDelegate.m in Sources */,
+				B25D3D5C1599237700428A79 /* TeapotController.m in Sources */,
+				B25D3D5815991DA200428A79 /* GLViewController.m in Sources */,
+				B25D3D7D159928F200428A79 /* TeapotNode.m in Sources */,
+				3A1237A215A7067500E404EA /* UIViewAdditions.m in Sources */,
+				3A1237A315A7067500E404EA /* UIImageAdditions.m in Sources */,
+				3A1237A715A7068B00E404EA /* AngleUtil.m in Sources */,
+				B2FF34C615B2AD77001185F4 /* CC3Foundation.m in Sources */,
+				B2FF34C815B2AD77001185F4 /* CC3GLMatrix.m in Sources */,
+				B2FF34CA15B2AD77001185F4 /* CC3Kazmath.c in Sources */,
+				B2FF34CC15B2AD77001185F4 /* CC3Math.m in Sources */,
+				B2FF34CE15B2AD77001185F4 /* NSValue+CC3Types.m in Sources */,
+				B2FF34D015B2AD77001185F4 /* REBuffer.m in Sources */,
+				B2FF34D215B2AD77001185F4 /* RECache.m in Sources */,
+				B2FF34D415B2AD77001185F4 /* RECamera.m in Sources */,
+				B2FF34D615B2AD77001185F4 /* REDirector.m in Sources */,
+				B2FF34D815B2AD77001185F4 /* REGLStateManager.m in Sources */,
+				B2FF34DA15B2AD77001185F4 /* REGLTypes.m in Sources */,
+				B2FF34DC15B2AD77001185F4 /* REGLView.m in Sources */,
+				B2FF34DE15B2AD77001185F4 /* REKeyframedMeshNode.m in Sources */,
+				B2FF34E015B2AD77001185F4 /* RELight.m in Sources */,
+				B2FF34E215B2AD77001185F4 /* REMaterial.m in Sources */,
+				B2FF34E415B2AD77001185F4 /* RENode.m in Sources */,
+				B2FF34E615B2AD77001185F4 /* RENSArrayAdditions.m in Sources */,
+				B2FF34E815B2AD77001185F4 /* RENSValueAdditions.m in Sources */,
+				B2FF34EA15B2AD77001185F4 /* REProgram.m in Sources */,
+				B2FF34EC15B2AD77001185F4 /* RERotator.m in Sources */,
+				B2FF34EE15B2AD77001185F4 /* REScene.m in Sources */,
+				B2FF34F015B2AD77001185F4 /* REScheduler.m in Sources */,
+				B2FF34F215B2AD77001185F4 /* REShader.m in Sources */,
+				B2FF34F415B2AD77001185F4 /* RESprite.m in Sources */,
+				B2FF34F615B2AD77001185F4 /* RESpriteBatchNode.m in Sources */,
+				B2FF34F815B2AD77001185F4 /* RETexture.m in Sources */,
+				B2FF34FA15B2AD77001185F4 /* REVertexArrayObject.m in Sources */,
+				B2FF34FC15B2AD77001185F4 /* REWavefrontMesh.m in Sources */,
+				B2FF34FE15B2AD77001185F4 /* REWavefrontMeshElementIndexBatch.m in Sources */,
+				B2FF350015B2AD77001185F4 /* REWavefrontMeshGroupNode.m in Sources */,
+				B2FF350215B2AD77001185F4 /* REWavefrontMeshNode.m in Sources */,
+				B2FF350415B2AD77001185F4 /* REWorld.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B25D3CED1599171B00428A79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B25D3CEE1599171B00428A79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A1D0CF915A70BB2003BAC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rend Example Collection/Rend Example Collection-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/james/projects/react-native/ReactKit",
+				);
+				INFOPLIST_FILE = "Rend Example Collection/Rend Example Collection-Info.plist";
+				PRODUCT_NAME = BumpSphereExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A1D0CFA15A70BB2003BAC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rend Example Collection/Rend Example Collection-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/james/projects/react-native/ReactKit",
+				);
+				INFOPLIST_FILE = "Rend Example Collection/Rend Example Collection-Info.plist";
+				PRODUCT_NAME = BumpSphereExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B25D3CF61599171B00428A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B25D3CF71599171B00428A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B25D3CF91599171B00428A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rend Example Collection/Rend Example Collection-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/james/projects/react-native/ReactKit/**",
+				);
+				INFOPLIST_FILE = "Rend Example Collection/Rend Example Collection-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B25D3CFA1599171B00428A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rend Example Collection/Rend Example Collection-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/james/projects/react-native/ReactKit/**",
+				);
+				INFOPLIST_FILE = "Rend Example Collection/Rend Example Collection-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A1D0CF815A70BB2003BAC0F /* Build configuration list for PBXNativeTarget "BumpSphereExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1D0CF915A70BB2003BAC0F /* Debug */,
+				3A1D0CFA15A70BB2003BAC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25D3CDA1599171B00428A79 /* Build configuration list for PBXProject "Rend Example Collection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25D3CF61599171B00428A79 /* Debug */,
+				B25D3CF71599171B00428A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25D3CF81599171B00428A79 /* Build configuration list for PBXNativeTarget "TeapotExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25D3CF91599171B00428A79 /* Debug */,
+				B25D3CFA1599171B00428A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B25D3CD71599171B00428A79 /* Project object */;
+}
